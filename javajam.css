@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(image/background.gif);
+    color: #221811;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #D2B48C;
+    height: 150px;
+    background-image: url(image/javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+h1 {
+    padding: 45px 0 0 220px;
+    font-size: 3em;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 30px;
+    float: left;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    text-decoration: none;
+    padding: 0 12.5px
+}
+nav a:link { 
+    color: #FEF6C2; 
+}
+nav a:visited { 
+    color: #D2B48C; 
+}
+nav a:hover { 
+    color: #CC9933; 
+}
+main {
+    display: block;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+}
+main h2, h3, p, .address, ul, dl {
+    margin: 1em 2em;
+    margin-top: 0;
+}
+
+img {
+    padding: 0 10px;
+}
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: 2em;
+    text-transform: uppercase;
+    border-bottom: solid;
+}
+.details {
+    padding: 0 20%;
+    display: flex;
+}
+footer {
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+}
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 10px;
+}
+#heroroad, #heromugs, #heroguitar, #herojobs {
+    background-size: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+#heroroad {
+    background-image: url(image/heroroad.jpg);
+}
+#heromugs {
+    background-image: url(image/heromugs.jpg);
+}
+#heroguitar {
+    background-image: url(image/heroguitar.jpg);
+}
+#herojobs {
+    background-image: url(image/herojobs.jpg);
+}
+table {
+    width: 90%;
+    border-spacing: 0;
+    background-color: #ffffcc;
+    margin: 0 auto;
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-of-type(odd) {
+    background-color: #D2B48C;
+}
+form {
+    padding: 2em;
+}
+form label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+form input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+#mySubmit {
+    margin-left: 9.5em;
+}

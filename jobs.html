@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House Menu</title>
+    <link rel="stylesheet" href="javajam.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="music.html">Music</a>
+            <a href="jobs.html">Jobs</a>
+        </nav>
+    
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>
+                Want to work at JavaJam? Fill out the form below to start your application.<br>
+                Required fields are marked with an asterisk (*).
+            </p>
+
+            <form action="http://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">*Name: </label>
+                <input type="text" name="myName" id="myName" required>
+
+                <label for="myEmail">*E-mail: </label>
+                <input type="email" name="myEmail" id="myEmail" required>
+
+                <label for="myExperience">*Experience: </label>
+                <textarea name="myExperience" id="myExperience" rows="2" cols="20" required></textarea>
+
+                <input type="submit" value="Apply Now" name="mySubmit" id="mySubmit" required>
+            </form>
+        </main>
+    
+        <footer>
+            Copyright &copy; 2018 JavaJam Coffee House<br>
+            <a href="http://127.0.0.1:5500/index.html">yongzhe@lam.com</a>
+        </footer>
+    </div>
+</body>
+</html>
